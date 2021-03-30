@@ -1,7 +1,7 @@
 /// Executes closures on isolates.
 ///
 ///
-library isolate_executor;
+library conduit_isolate_exec;
 
 export 'src/executable.dart';
 export 'src/executor.dart';
