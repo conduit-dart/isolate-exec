@@ -1,4 +1,4 @@
-# isolate_executor
+# conduit_isolate_exec
 
 This library contains types that allow for executing code in a spawned isolate, perhaps with additional imports.
 
