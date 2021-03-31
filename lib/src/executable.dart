@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:isolate';
 import 'dart:mirrors';
 
-abstract class Executable<T> {
+abstract class Executable<T extends Object?> {
   Executable(this.message) : _sendPort = message["_sendPort"];
 
   Future<T> execute();
